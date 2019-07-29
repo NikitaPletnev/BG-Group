@@ -1,0 +1,113 @@
+body{
+	font-family:  'TT Lakes Condensed';
+	background: url('bg.png') no-repeat;
+	background-size: 100%;
+	overflow-x: hidden;
+}
+
+.running-string{
+	display: inline-block;
+	font-weight: 600;
+	margin-left: 130px;
+	width: 65%;
+}
+
+.running-string span{
+	margin-right: 20px;
+}
+
+.info{
+	display: flex;
+	float: right;
+	width: 20%;
+	height: 55px;
+	margin-top: -10px;
+	margin-right: -10px;
+}
+
+.valute-container{
+	width: 45%;
+	display: inline-block;
+}
+
+.valute-container span{
+	font-size: 0.8em;
+	font-weight: 600;
+}
+
+.valute_title{
+	position: absolute;
+	margin-left: 22px;
+   
+}
+
+.usd{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	float: left;
+	margin-top:20px;
+	margin-left: 15px;
+}
+.eur{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.weather-container{
+	width: 27%;
+	margin-left: 5px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.weather{
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.weather_temp{
+	font-size: 24px;
+}
+
+.date-container{
+	width: 27%;
+	text-align: center;
+	font-weight: 600;
+}
+
+.time{
+	margin-top: 5px;
+	font-size: 24px;
+}
+
+.central_img{
+	position: absolute;
+	top:30%;
+	margin-left: 20px;
+	width: 80%;
+    height: 92%;
+	background: url("photo.png") no-repeat;
+	background-size:100%;
+}
+
+.central_text{
+	font-weight: 600;
+	margin-top: 50px;
+	margin-left: 350px;
+}
+
+.side_text{
+	margin-right: 10px;
+	margin-top: 20px;
+	position: absolute;
+	height: 80%;
+	width:16%;
+	right: 0;
+	font-weight: 600;
+	font-size: 20px;
+}
